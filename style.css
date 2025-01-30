@@ -1,0 +1,76 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: rgb(221, 187, 143);
+}
+
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    color: rgb(221, 175, 90);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+select{
+    background-color: rgb(240, 171, 42);
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+}
+
+.tb{
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(153, 148, 148);
+    margin-top: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.tb:focus{
+    outline: none;
+}
+
+
+button{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(250, 175, 78);
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.opt{
+    background-color: rgb(240, 171, 42);
+    color: black;
+    font-weight: bolder;
+}
+
+select{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#errMsg{
+    color: rgb(236, 12, 12);
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+}
+
+#errVal{
+    color: rgb(236, 12, 12);
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+}
